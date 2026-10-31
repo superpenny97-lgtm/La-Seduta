@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Seduta - Regolamento</title>
+    <style>
+        :root {
+            --bg-color: #0f0e13;
+            --card-bg: #1a1823;
+            --accent-color: #c5a880;
+            --text-main: #e2e0eb;
+            --text-muted: #9b97ab;
+            --border-color: #3b3550;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 2px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            color: var(--accent-color);
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.3rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+            margin-top: 30px;
+        }
+
+        p, li {
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .intro-box {
+            background-color: rgba(197, 168, 128, 0.05);
+            border-left: 4px solid var(--accent-color);
+            padding: 16px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .rule-note {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px dashed var(--border-color);
+            padding: 14px;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🕯️ LA SEDUTA</h1>
+        <div class="subtitle">Un gioco da camera, segreti e paranoia</div>
+
+        <div class="intro-box">
+            “Ogni giocatore ha una scheda con specifiche indicazioni su chi siamo e che regole dobbiamo seguire. Il vostro ruolo è segreto e la scheda è solo per voi! 
+            Due di noi sono posseduti da un fantasma e cercheranno di eliminare due dei commensali seduti a questo tavolo. 
+            Solo loro sanno cosa devono fare, mentre noi dovremo cercare di stare attenti per scovare chi possa essere!”
+        </div>
+
+        <h2>📜 Regole Fondamentali</h2>
+        <ul>
+            <li><strong>I Sintomi:</strong> Ciascun giocatore posseduto ha una regola comportamentale ferrea che deve rispettare durante tutta la cena.</li>
+            <li><strong>Le Penalità:</strong> Se ti accorgi di aver violato il tuo sintomo (o te ne dimentichi), devi eseguire immediatamente la penalità descritta nella tua scheda.</li>
+            <li><strong>Le Eliminazioni:</strong> Per eliminare il tuo bersaglio segreto devi completare l'azione specifica indicata nella scheda. Chi viene eliminato <strong>rimane in gioco</strong> fino alla fine senza saperlo, per mantenere viva la conversazione.</li>
+        </ul>
+
+        <div class="rule-note">
+            <strong>⚠️ Nota Importante per il Vincitore:</strong><br>
+            Il fantasma vince se allo scadere del tempo avrà eliminato il bersaglio <strong>E</strong> non sarà stato scoperto. Se riesci a eliminare il tuo bersaglio, <strong>non dirlo a nessuno</strong> o verrai immediatamente smascherato!
+        </div>
+
+        <h2>❓ Domande Frequenti (FAQ)</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">D: Sono stato eliminato, devo smettere di parlare o uscire?</div>
+            <div class="faq-answer">R: Assolutamente no! Per preservare il mistero e la tensione, chi viene eliminato continua a giocare e a partecipare alla conversazione esattamente come prima.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">D: Posso mostrare la mia scheda agli altri?</div>
+            <div class="faq-answer">R: No, la scheda è strettamente personale e segreta. Puoi mentire spudoratamente sulle tue abitudini o difenderti se ti accusano.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">D: Come si decide chi vince alla fine?</div>
+            <div class="faq-answer">R: Allo scadere del tempo si procede all'accusa collettiva. Se il gruppo identifica correttamente i fantasmi, questi ultimi perdono (vengono esorcizzati). Se passano inosservati e hanno completato l'eliminazione, trionfano.</div>
+        </div>
+
+        <footer>
+            La Seduta &bull; Tutti i diritti riservati ai fantasmi del tavolo
+        </footer>
+    </div>
+
+</body>
+</html>
